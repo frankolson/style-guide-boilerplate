@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Project Assets
+import Colors from './components/Colors';
 import Section from './components/Section';
 
 class App extends Component {
@@ -18,7 +19,7 @@ class App extends Component {
 
           <div className="col-md-6 mb-3">
             <Section position="2" title="Colors">
-              Stuff
+              <Colors />
             </Section>
           </div>
 
