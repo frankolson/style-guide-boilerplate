@@ -1,11 +1,15 @@
 // Vendor Asssets
 import React from 'react';
 
-const Section = ({ title }) => (
-  <div className="card">
-    <div className="card-body">
-      {title}
-    </div>
+const Section = ({ children, position, title }) => (
+  <div>
+    <h5>
+      <span className="text-muted">{`${position}. `}</span>
+
+      {`${title}`}
+    </h5>
+
+    {children}
   </div>
 );
 
