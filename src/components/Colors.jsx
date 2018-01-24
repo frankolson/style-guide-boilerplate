@@ -8,25 +8,25 @@ const Colors = () => (
   <div className="row">
     <div className="col-6 col-sm-4 mb-3">
       <ColorBlock
-        bold="#497fe0"
-        light="#759de8"
-        regular="#5f8ee4"
+        bold="#0069c0"
+        light="#6ec6ff"
+        regular="#2196f3"
       />
     </div>
 
     <div className="col-6 col-sm-4 mb-3">
       <ColorBlock
-        bold="#0d0d0d"
-        light="#262627"
-        regular="#19191a"
+        bold="#000000"
+        light="#484848"
+        regular="#212121"
       />
     </div>
 
     <div className="col-6 col-sm-4 mb-3">
       <ColorBlock
-        bold="#e05049"
-        light="#e87a75"
-        regular="#e4655f"
+        bold="#087f23"
+        light="#80e27e"
+        regular="#4caf50"
       />
     </div>
 
