@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Project Assets
 import Colors from './components/Colors';
 import Section from './components/Section';
+import Typography from './components/Typography';
 
 class App extends Component {
   render() {
@@ -25,7 +26,7 @@ class App extends Component {
 
           <div className="col-md-6 mb-3">
             <Section position="3" title="Typography">
-              Stuff
+              <Typography />
             </Section>
           </div>
 
